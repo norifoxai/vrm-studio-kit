@@ -1,0 +1,6 @@
+# one shoot per line: <outfit> <pose> <framing> <out.png>
+# names come from outfits.json / poses.json / framings.json
+default rest full  /renders/default-rest-full.png
+casual  rest half  /renders/casual-rest-half.png
+bikini  rest full  /renders/bikini-rest-full.png
+dress   rest ears /renders/dress-ears.png
