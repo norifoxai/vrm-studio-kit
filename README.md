@@ -19,7 +19,17 @@ has been eyeballed on real output.
 ## The convention
 
 A shoot is a line: `<outfit> <pose> <framing> <out.png>`. One page load,
-many shots. A shooter loop looks like:
+many shots.
+
+A working reference shooter ships here (`shooter.mjs`): a jobs file, or a
+single job as argv:
+
+    node shooter.mjs jobs.txt
+    node shooter.mjs "default rest full /renders/out.png"
+
+It loads the model once (~40s software GL), applies outfit/pose/framing,
+waits for the frame counter to advance 3+ before capturing, writes to a
+temp name and renames, and logs every job. A shooter loop looks like:
 
 1. load glb.html once, wait for calibration (the 4s wait + settle + 90 frames;
    shoot before that and you photograph mid-calibration T-pose)
