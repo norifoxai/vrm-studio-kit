@@ -1,0 +1,6 @@
+{
+  "rest": [
+    ["leftUpperArm", 0, 0, 8], ["rightUpperArm", 0, 0, -8],
+    ["leftLowerArm", 0, 0, 5], ["rightLowerArm", 0, 0, -5]
+  ]
+}

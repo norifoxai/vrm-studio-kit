@@ -1,0 +1,39 @@
+{
+  "default": [
+    "Casual dress 02",
+    "Bikini Bottom",
+    "Rindo BodySuit",
+    "Cardigan(Haruno Koromogae)"
+  ],
+  "casual": [
+    "Casual dress 02",
+    "Bikini Bottom",
+    "Rindo BodySuit",
+    "Tops(Sleeveless)",
+    "Rindo_shorts"
+  ],
+  "bikini": [
+    "Bikini Top",
+    "Bikini Bottom"
+  ],
+  "dress": [
+    "Casual dress 01",
+    "Bikini Bottom",
+    "Rindo BodySuit"
+  ],
+  "catsuit": [
+    "Rindo BodySuit",
+    "Bikini Top",
+    "Bikini Bottom"
+  ],
+  "shorts": [
+    "Casual dress 02",
+    "Bikini Bottom",
+    "pants_low_hip"
+  ],
+  "pants": [
+    "Casual dress 02",
+    "Bikini Bottom",
+    "Casual dress 03"
+  ]
+}
